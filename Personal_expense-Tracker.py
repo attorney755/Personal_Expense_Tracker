@@ -11,10 +11,10 @@ def create_conn():
     conn = None
     try:
         conn = mysql.connector.connect(
-            host='01e489f6c6f8.1009380b.alu-cod.online',
-            port='37443',
-            user='insiders',
-            password='1234'
+            host='#', #your host
+            port='#', #your port
+            user='#', #Database user
+            password='#' #your password
         )
         if conn.is_connected():
             print('Connected to MySQL server')
