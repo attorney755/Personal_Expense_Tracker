@@ -13,6 +13,7 @@ Generate monthly expense reports
 Monitor and update budget
 Change password
 Multi-language support (English, Kinyarwanda, French)
+
 Prerequisites
 
 Python 3.x
@@ -26,29 +27,33 @@ Clone the Repository
 Clone this repository to your local machine using the following command:
 
 git clone <repository-url>
+
 cd Personal_expense-Tracker
+
 Create a Virtual Environment (Optional)
+
 It's recommended to use a virtual environment to manage dependencies. Create and activate a virtual environment using the following commands:
 
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 Install Dependencies
 Install the required Python packages using pip:
-
 pip install mysql-connector-python prettytable
+
 Set Up the Database
 Ensure your MySQL server is running. The application will automatically create the necessary database and tables if they don't exist. Update the database connection details in the create_conn function if needed.
 
 Run the Application
-Run the application using the following command:
 
-python Insiders-Summative/Personal_expense-Tracker.py
 Usage Instructions
 
 Register or Log In
+
 When you first run the application, you will be prompted to register or log in.
 Follow the on-screen instructions to create a new user account or log in with existing credentials.
+
 Main Menu
+
 Once logged in, you will be presented with the main menu, which includes the following options:
 
 Log Expense: Enter details of a new expense, including category, amount, date, description, and payment method.
@@ -58,6 +63,7 @@ Check Budget: View the remaining budget and check if you are within your spendin
 Change Password: Update your account password.
 Change Language: Switch the application language between English, Kinyarwanda, and French.
 Save & Exit: Save your data and log out of the application.
+
 Navigating the Application
 Use the numeric options to navigate through the menus and perform actions.
 Follow the prompts to enter required information when logging expenses or generating reports.
